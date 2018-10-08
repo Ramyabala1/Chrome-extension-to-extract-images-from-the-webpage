@@ -1,0 +1,22 @@
+{
+  "name": "Extract Image",
+  "description": "Extract image from WebPage",
+  "version": "2.4.2",
+  "minimum_chrome_version": "31",
+  "manifest_version": 2,
+  "permissions": [ "tabs","activeTab", "downloads","http://*/","https://*/"],
+  "browser_action": {
+    "default_icon": "/exactImage48.png",
+    "default_popup": "/views/popup.html"
+  },
+  "icons": {
+    "16": "/exactImage16.png",
+    "48": "/exactImage48.png",
+    "128": "/exactImage128.png"
+  },
+ 
+  "background": {
+    "scripts": ["/scripts/defaults.js"]
+  }
+  
+}
